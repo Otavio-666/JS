@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11</title>
+    <script src="/JS/Codigos/js/11.js" defer></script>
+</head>
+<body>
+
+    <form id="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <span id="erroNome" style="color: red;"></span><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <span id="erroEmail" style="color: red;"></span><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        
+        <input type="checkbox" id="mostrar-senha">
+        <label for="mostrar-senha">Mostrar a senha</label>
+        <span id="erroSenha" style="color: red;"></span><br><br>
+
+        <label for="confirmarSenha">Confirmar Senha:</label>
+        <input type="password" id="confirmarSenha" name="confirmarSenha">
+        <span id="erroConfirmarSenha" style="color: red;"></span><br><br>
+
+        <button type="submit">Enviar</button>
+
+        <div id="mensagemSucesso" style="color: green;"></div>
+    </form>
+
+    <br>
+    <a href="/JS/index.html"><button>Voltar</button></a>
+    
+</body>
+</html>
