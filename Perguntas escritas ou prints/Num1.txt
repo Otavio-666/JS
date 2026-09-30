@@ -1,12 +1,6 @@
 ﻿Aluno: Otávio Suptil Ferraz                                                 Curso: 2º TDS
 
-
-
-
-
-
 Objetivos de Usar o Javascript em aplicações Front End:
-
 
 * Manipulação do DOM: Alterar, criar ou atualizar elementos da página em tempo real sem precisar recarregar o navegador;
 * Resposta a Eventos: Capturar ações do usuário(como cliques,envio de formulários, rolagens de tela) e reagir na mesma hora.
