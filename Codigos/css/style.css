@@ -1,0 +1,75 @@
+/* Este css é para todas as paginas */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0 auto;
+    padding: 24px;
+    max-width: 700px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin: 4px 2px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+body > a:not(:has(button)) {
+    display: block;
+    background-color: #fff;
+    color: #2563eb;
+    text-decoration: none;
+    padding: 12px 16px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+body > a:not(:has(button)):hover {
+    background-color: #eaf1ff;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    padding: 6px 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+label {
+    display: inline-block;
+    min-width: 130px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+ul {
+    padding-left: 20px;
+}
